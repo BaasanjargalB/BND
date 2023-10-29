@@ -1,0 +1,50 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* undsen style-uud */
+
+
+#navbar{
+    background-color: black;
+    display: flex;
+}
+
+.logo{
+    margin-left: 32px;
+    height: 61px;
+    width: 61px;
+}
+
+.search{
+    margin-left: 630px;
+}
+.search input{
+    padding: 10px;
+    border-radius: 20px;
+    width: 650px;
+    margin-top: 12px;
+}
+.button{
+    text-align: center;
+}
+
+#btn1, #btn2{
+    padding: 0px;
+    border: none;
+    /* background: none; */
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.corp, .partner{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+}
