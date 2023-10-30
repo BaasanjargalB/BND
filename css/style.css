@@ -69,8 +69,8 @@ article{
 }
 
 .scroll-bar{
-    height:100px;
-    width: 108px;
+    height:400px;
+    width: 308px;
     border: 1px solid grey;
     overflow:auto;
 }
