@@ -32,10 +32,10 @@
     text-align: center;
 }
 
-#btn1, #btn2{
+#btn1 a, #btn2 a{
     padding: 0px;
     border: none;
-    /* background: none; */
+    background: none;
     text-decoration: none;
     color: black;
     padding: 20px;
@@ -47,4 +47,8 @@
     color: black;
     background-color: white;
     margin-top: 20px;
+}
+
+h1{
+    text-align: center;
 }
