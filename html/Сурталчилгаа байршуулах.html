@@ -4,42 +4,45 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Сурталчилгаа байршуулах</title>
-	<nav id = "navbar">
-            <a href="index.html"><img src="img/muis-logo.png" alt="muis-logo" class="logo"></a>
-            <br>
-            <label class="search">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav id = "navbar">
+            <a href="index.html"><img src="/img/muis-logo.png" alt="muis-logo" class="logo"></a>
+            <div class="search">
                 <input type="text" placeholder="Search..">
             </label>
         </nav>
-</head>
-<body>
-    <section>
-        Нүүр хуудас дээр:
-        <img src="img/nvvr.png" alt="nvvr huudas" width="100px" height="350px">
-        Шүүх хуудас дээр:
-        <img src="img/shvvh.png" alt="shvvh huudas" width="80px" height="200px">
-        Байгууллага дээр:
-        <img src="img/baiguullaga.png" alt="baiguullaga" width="80px" height="200px">
+    </header>
+
+    <section class="ad-bairshuulah">
+        <p>Нүүр хуудас дээр:</p>
+        <img src="/img/nvvr.png" alt="nvvr huudas" width="100px" height="350px">
+        <p>Шүүх хуудас дээр:</p>
+        <img src="/img/shvvh.png" alt="shvvh huudas" width="80px" height="200px">
+        <p>Байгууллага дээр:</p>
+        <img src="/img/baiguullaga.png" alt="baiguullaga" width="80px" height="200px">
     </section>
     <section>
         <form>
             <br>
-            Байгууллагын нэр:
+            <p>Байгууллагын нэр:</p>
             <input type="text" name="Байгууллагын нэр">
             <br><br>
-            Мэдээ нийтлүүлэх огноо:
+            <p>Мэдээ нийтлүүлэх огноо:</p>
             <input type="date" name="нийтлүүлэх өдөр">
             <br><br>
-            Авь хэсэгт байршуулах:
+            <p>Аль хэсэгт байршуулах:</p>
             <input type="text" name="зар байрлал">
             <br><br>
-            Хэр удаан байршуулах:
+            <p>Хэр удаан байршуулах:</p>
             <input type="text" name="Байршуулах хугацаа">
             <br><br>
-            Холбоо барих:
+            <p>Холбоо барих:</p>
             <input type="text" name="Холбоо барих дугаар">
             <br><br>
-            Мэдээнд оруулах зургуудыг өндөр чанартайгаар илгээнэ үү.
+            <p>Мэдээнд оруулах зургуудыг өндөр чанартайгаар илгээнэ үү.</p>
             <input type="file" name="zurag" accept="image/*">
             <br><br>
            <button>Илгээх</button>  

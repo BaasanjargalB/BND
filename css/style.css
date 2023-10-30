@@ -52,3 +52,18 @@
 h1{
     text-align: center;
 }
+article{
+    margin-bottom: 50px;
+}
+
+/* section{
+    margin-top: 50px;
+} */
+
+.head{
+    margin-bottom: 30px;
+}
+
+article{
+    float:none  
+}
