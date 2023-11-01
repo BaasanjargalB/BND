@@ -70,7 +70,7 @@ article{
 
 .scroll-bar{
     height:400px;
-    width: 308px;
+    width: 700px;
     border: 1px solid grey;
     overflow:auto;
 }
