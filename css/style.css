@@ -14,9 +14,9 @@
 }
 
 .logo{
-    margin-left: 32px;
-    height: 61px;
-    width: 61px;
+    margin-left: 40px;
+    height: 40px;
+    width: 40px;
 }
 
 .search{
@@ -25,7 +25,7 @@
 .search input{
     padding: 10px;
     border-radius: 20px;
-    width: 650px;
+    width: 300px;
     margin-top: 12px;
 }
 .button{
@@ -60,7 +60,7 @@ article{
     font-family: Arial, Helvetica, sans-serif;
 }
 .head{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 article{
