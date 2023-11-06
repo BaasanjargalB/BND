@@ -32,11 +32,11 @@
     margin-top: 12px;
     margin-right: 80px;
 }
-.button{
+/* .button{
     text-align: center;
-}
+} */
 
-#btn1 a, #btn2 a{
+/* #btn1 a, #btn2 a{
     padding: 0px;
     border: none;
     background: none;
@@ -44,12 +44,15 @@
     color: black;
     padding: 20px;
     margin: 20px;
-}
+} */
 
 
 .footer{
     background-color: black;
+    display:flex;
 }
+
+.header{margin-top: 0px;}
 
 .scroll-bar{
     height:400px;
