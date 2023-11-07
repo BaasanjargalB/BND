@@ -22,6 +22,7 @@
 
 .search{
     margin-left: 780px;
+    display:flex;
     
 }
 .search input{
@@ -31,6 +32,7 @@
     height: 20px;
     margin-top: 12px;
     margin-right: 80px;
+    display:flex;
 }
 
 
@@ -64,6 +66,29 @@
     position:absolute;
     margin-left: 900px;
     margin-top: 12px; 
+}
+
+
+
+/*Ih biy*/
+.button{
+   margin-top: 21px;
+   margin-bottom: 20px;
+}
+.button .btn1{
+    position:absolute;
+    margin-left: 400px;
+}
+.button .btn2{
+    position:absolute;
+    margin-left: 900px;
+}
+main{
+  text-align: center;
+}
+.nvvr_zurag{
+    position:absolute;
+    margin-top:350spx;
 }
 /*Scroll*/
 
