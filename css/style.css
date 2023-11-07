@@ -1,12 +1,12 @@
-/* reset */
+/* ih biy */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* undsen style-uud */
-
+/* header*/
+.header{margin-top: 0px;}
 
 #navbar{
     background-color: black;
@@ -32,31 +32,44 @@
     margin-top: 12px;
     margin-right: 80px;
 }
-/* .button{
-    text-align: center;
-} */
-
-/* #btn1 a, #btn2 a{
-    padding: 0px;
-    border: none;
-    background: none;
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    margin: 20px;
-} */
 
 
+/*  footer*/
+.ad{
+    color:white;
+    position:absolute;
+    margin-left: 900px;
+    margin-top: 12px;
+    
+    
+}
+.organization{
+    color:white;
+    position:absolute;
+    margin-left: 400px;
+    margin-top: 12px;
+}
 .footer{
     background-color: black;
-    display:flex;
+    height: 50px;
 }
-
-.header{margin-top: 0px;}
+.add-company{
+    color:rgb(48, 142, 173);
+    position:absolute;
+    margin-left: 400px;
+    margin-top: 12px; 
+}
+.ad_bair{
+    color:rgb(48, 142, 173);
+    position:absolute;
+    margin-left: 900px;
+    margin-top: 12px; 
+}
+/*Scroll*/
 
 .scroll-bar{
     height:400px;
     width: 700px;
-    border: 1px solid grey;
+    border: 0.5px solid grey;
     overflow:auto;
 }
