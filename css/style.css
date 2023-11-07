@@ -72,23 +72,30 @@
 
 /*Ih biy*/
 .button{
-   margin-top: 21px;
+   margin-top: 20px;
    margin-bottom: 20px;
 }
 .button .btn1{
-    position:absolute;
-    margin-left: 400px;
+    margin-left: 220px;
+    height: 50px;
+    width: 400px;
+    color:white;
+
 }
 .button .btn2{
     position:absolute;
-    margin-left: 900px;
+    margin-top: 0px;
+    margin-left: 250px;
+    height: 50px;;
+    width: 400px;
+    color:white;
 }
+
 main{
   text-align: center;
 }
 .nvvr_zurag{
-    position:absolute;
-    margin-top:350spx;
+    margin-top:0px;
 }
 /*Scroll*/
 
